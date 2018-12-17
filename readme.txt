@@ -32,12 +32,21 @@ title is set as 'Model' with a sub-tab 'Model' chowing 'Run model' option
 ------------------------------------------------------------------------------------------------------------------------------------
 ### Running the model
 To run the model the FinalModel python file has to be open in Spyder. along with the agentframework, which has been already loaded. By 
-pressing the 'Run@ button in main window, the model can be begun in the IPython console. 
+pressing the 'Run' button in main window, the model can be began in the IPython console. 
 
+Running the model prints the y and x values of the html first in to the iPython console. Besides, an image showing the initial condition 
+of the environment is also printed out.
 
+The 'Model' window has to be opened. In this window, there is the sun-tab named 'Model' it has to be opened. It shows option' Run Model' 
+which has to be pressed. This runs the animation. Running the animation shows the movement of the agents in the environment, with 
+changes in the environment. the animation runs the number of iteration or unless the stopping condition is met. The final condition is
+printed out in the IPython console once the animation stops and the model window is closed. Moreover, the distance between agents and 
+the average value of their sharing of the food is printed out in the Ipython console. 
 
-
-
+----------------------------------------------------------------------------------------------------------------------------------
+###Warnings: The agentframework.py file, the FinalModel.py file and the in.txt file should be present in the same directory. Here
+all the files have to be opened from the folder named: GEOG5990M_[201277909]_Assessment1 folder. 
+Otherwise the code will not run
 
 ---------------------------------------------------------------------------------------------------------------------------------
 ##Licence
